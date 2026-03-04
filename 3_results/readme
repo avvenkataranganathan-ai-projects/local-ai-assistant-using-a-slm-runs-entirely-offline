@@ -1,1 +1,9 @@
+Here we see the comprehensive results for each model namely tinyllama,phi,gemma 2b
+We measure their response to categories like logic ,coding,summarization,general knowledge and edge cases
+We see their latency seconds, cpu percentage, ram percentage, response length and their response
+The conclusion is that tinyllama is not functioning for a consumer hardware of limited ram while gemma 2b  takes peak usage of the ram, phi takes longer time to respond to edge cases and hasgenerally more latency than the other two models
+From this we can say for a consumer hardware that does not use a gpu  gemma 2b is best
 
+For more detailed analysis please download this results.json to get a clearer picture
+
+The ai assistant ran models works entirely offline using Ollama,windows powershell and found out in this consumer hardware the best ai model to work in offline amongst the three is gemma 2b
